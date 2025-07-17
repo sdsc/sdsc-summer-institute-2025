@@ -22,9 +22,9 @@ All times are in Pacific time.
 ### Tuesday, July 29 - Preparation day (virtual)<a name="agenda-1"></a>
 | **TIME (Pacific time)**       |   **TOPIC** | **PRESENTER** |
 | -------------------- |  ----------- | ----------- |
-| 9:00 AM – 9:30 AM	   | [Welcome & Orientation]()| [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
-| 9:30 AM – 9:45 AM	   | [Logistical Information]()| Cindy Wong  |
-| 9:45 AM – 11:00 AM	 | [Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal]()| [Bob Sinkovits](https://www.sdsc.edu/research/experts/sinkovits_robert.html)   |
+| 9:00 AM – 9:30 AM	   | [Welcome & Orientation](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/1.0_preparation_day_welcome_and_orientation)| [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
+| 9:30 AM – 9:45 AM	   | [Logistical Information](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/1.0_preparation_day_welcome_and_orientation)| Cindy Wong  |
+| 9:45 AM – 11:00 AM	 | [Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/1.0_preparation_day_welcome_and_orientation)| [Bob Sinkovits](https://www.sdsc.edu/research/experts/sinkovits_robert.html) |
 
 
 [Back to Top](#top)
@@ -34,11 +34,11 @@ All times are in Pacific time.
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Registration |    |
 | 8:30 AM - 9:30 AM    | 	Welcome |   [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   | |
-| 9:30 AM - 12:00 PM   | 	[2.1 Data Management: Data Storage, Data Transfers, File Systems]() |  [Marty Kandes](https://github.com/mkandes)   |
+| 9:30 AM - 12:00 PM   | 	[2.1 Data Management: Data Storage, Data Transfers, File Systems](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/2.1_data_management) |  [Marty Kandes](https://github.com/mkandes)   |
 | 12:00 PM - 1:30 PM   | 	Lunch |    |
-| 1:30 PM - 3:15 PM    |  [2.2 Running Batch and Interactive Jobs]() | [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html) |
+| 1:30 PM - 3:15 PM    |  [2.2 Running Batch and Interactive Jobs](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/2.2_running_batch_and_interactive_jobs) | [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html) |
 | 3:15 PM - 3:30 PM    | Break |    |
-| 3:30 PM  - 4:45 PM   | 	[2.3 Code Migration & Software Environments]() | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
+| 3:30 PM  - 4:45 PM   | 	[2.3 Code Migration & Software Environments](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/2.3_code_migration_and_software_environment) | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
 | 4:45 PM - 5:15 PM    | 	Q&A + Wrap-up |    |
 | 5:30 PM - 7:00 PM    | 	Evening Reception - UC San Diego, Seventh College, 15th Floor |    |
 
@@ -48,12 +48,12 @@ All times are in Pacific time.
 | **TIME (Pacific time)**       | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
-| 8:30 AM - 10:30AM    |  [3.1 Parallel Computing Concepts]()  | [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) |
+| 8:30 AM - 10:30AM    |  [3.1 Parallel Computing Concepts](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/3.1_parallel_computing_concepts)  | [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) |
 | 10:30 AM  - 10:45 AM |  Break |  |
-| 10:45 AM - 12:00 PM  | 	[3.2 High Throughput Computing]() | [Marty Kandes](https://github.com/mkandes) |
+| 10:45 AM - 12:00 PM  | 	[3.2 High Throughput Computing](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/3.2_high_throughput_computing) | [Marty Kandes](https://github.com/mkandes) |
 | 12:00 PM - 1:30 PM   |  Lunch |  |
-| 1:30 PM – 2:15 PM    |  [3.3 Getting Help ]()| [Nicole Wolter]() |
-| 2:15 PM - 4:30 PM    |  [3.4 Parallel Computing using MPI & Open MP]() | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
+| 1:30 PM – 2:15 PM    |  [3.3 Getting Help ](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/3.3_getting_help)| [Nicole Wolter]() |
+| 2:15 PM - 4:30 PM    |  [3.4 Parallel Computing using MPI & Open MP](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/3.4_parallel_computing_mpi_openmp) | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
 | 4:30 PM - 4:45 PM    |  Q&A + Wrap-up |  |
 
 [Back to Top](#top)
@@ -62,10 +62,10 @@ All times are in Pacific time.
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
-| 8:30 AM - 9:30 AM    |  [4.1 Knowledge Management ]()  | [Jon Stephens](https://adil.sdsc.edu/team-members/jon-stephens/) |
-| 8:30 AM – 10:00 AM   |  [4.2 Deep Learning - Part 1]() | [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) <br />[Paul Rodriguez](https://www.coursera.org/instructor/~13847302)|
+| 8:30 AM - 9:30 AM    |  [4.1 Knowledge Management ](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/4.1_knowledge_management)  | [Jon Stephens](https://adil.sdsc.edu/team-members/jon-stephens/) |
+| 8:30 AM – 10:00 AM   |  [4.2 Deep Learning - Part 1](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/4.2_deep_learning_pt1) | [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) <br />[Paul Rodriguez](https://www.coursera.org/instructor/~13847302)|
 | 12:00 PM - 1:30 PM	 |  Lunch  |  |
-| 1:30 PM - 4:30 PM    |  [4.2 Deep Learning - Part 2]() | [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) <br />[Paul Rodriguez](https://www.coursera.org/instructor/~13847302)| |
+| 1:30 PM - 4:30 PM    |  [4.3 Deep Learning - Part 2](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/4.3_deep_learning_pt2) | [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) <br />[Paul Rodriguez](https://www.coursera.org/instructor/~13847302)| |
 | 4:30 PM - 4:45 PM 	 |  	Q&A + Wrap-up  |  |
 
 [Back to Top](#top)
@@ -74,11 +74,11 @@ All times are in Pacific time.
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
-| 8:30 AM - 9:30 AM    |  [5.1 Best Practices for Scientific Computing ]() | [Fernando Garzon](https://www.linkedin.com/in/fgarzonm) |
-| 9:30 AM - 12:00 PM   |  [5.2 Performance Tuning]() | [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) |
+| 8:30 AM - 9:30 AM    |  [5.1 Best Practices for Scientific Computing ](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.1_best_practices_for_scientific_commputing) | [Fernando Garzon](https://www.linkedin.com/in/fgarzonm) |
+| 9:30 AM - 12:00 PM   |  [5.2 Performance Tuning](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.2_performance_tuning) | [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) |
 | 12:00 PM - 1:30 PM	 |  Lunch  |  |
 | 1:30 PM - 1:45 PM    |  [Empowering Women in Technology with NetApp & Neuvys]() | Cecile Kellam, AI & Analytics Senior Solution Architect- US Public Sector, NetApp <br> Rebecca Pinheiro, CEO & Founder, Neuvys Technologies
-| 1:45 PM – 4:30 PM|  [5.3 GPU Computing and Programming]() | [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html)  |
+| 1:45 PM – 4:30 PM|  [5.3 GPU Computing and Programming](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.3_gpu_computing_and_programming) | [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html)  |
 | 4:30 PM	 |  	Q&A + Wrap-up & Group Photo |  |
 
 [Back to Top](#top)
@@ -87,10 +87,10 @@ All times are in Pacific time.
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
-| 8:30 AM – 11:00 AM   |  [6.1 Python for HPC]()  | [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
-| 11:00 AM – 11:15 AM  |  [6.2 Overview of Voyager]() | [Amit Majumdar](https://www.sdsc.edu/research/experts/majumdar_amit.html)  |
-| 11:15 AM - 11:30 AM  | [6.3 Overview of COSMOS]() | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
-| 11:30 AM - 11:45 AM  | [6.4 Overview of Prototype National Research Platform (PNRP)]() | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
+| 8:30 AM – 11:00 AM   |  [6.1 Python for HPC](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/6.1_python_for_HPC)  | [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
+| 11:00 AM – 11:15 AM  |  [6.2 Overview of Voyager](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/6.2_overview_of_voyager) | [Amit Majumdar](https://www.sdsc.edu/research/experts/majumdar_amit.html)  |
+| 11:15 AM - 11:30 AM  | [6.3 Overview of COSMOS](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/6.3_overview_of_cosmos) | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
+| 11:30 AM - 11:45 AM  | [6.4 Overview of Prototype National Research Platform (PNRP)](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/6.4_overview_of_PNRP) | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
 | 12:15 PM – 12:30 PM  | Closing Remarks | [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
 
 [Back to Top](#top)
