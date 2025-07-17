@@ -1,7 +1,7 @@
 ### SDSC Summer Institute 2025
 # Session 2.2 Running Batch and Interactive Jobs
 
-**Date:** Monday, August 5, 2024
+**Date:** Monday, August 4, 2025
 
 **Summary**: 
 
