@@ -30,7 +30,7 @@ Note: if you have any difficulties getting set up, please contact Institute staf
 ##  HPC Systems Accounts: <a name="accounts"></a>
 You will need a training account to access SDSC’s Expanse HPC system for the HPC & Data Science Summer Institute. This account will be created for you by our team. 
 
-An email will be sent from consult@sdsc.edu with the subject line "HPC & Data Science 2024 Summer Institute: Account Set-Up" that will include your training account username and password and instructions.
+An email will be sent from consult@sdsc.edu with the subject line "HPC & Data Science 2025 Summer Institute: Account Set-Up" that will include your training account username and password and instructions.
 We will send this email in time for  "Prep Day," where we will be covering how to manage your training account, along with other useful information. 
 
 As a reminder, we are asking all attendees to use the training accounts that we are providing, even if you already have your own account. This will minimize problems related to custom configurations (e.g. environment variables, choice of shell, etc.) that may cause some of the hands-on examples to break. 
@@ -65,14 +65,14 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 There are several methods for launching a secure Jupyter Notebook on Expanse:
 * Using the ```galyleo``` shell utility: https://github.com/mkandes/galyleo
 * Using the Expanse Portal:   https://portal.expanse.sdsc.edu
-* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/ciml-org/ciml-summer-institute-2024/tree/main/4.1_conda_environments_and_jupyter_notebook_on_expanse)
+* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/ciml-org/ciml-summer-institute-2025/tree/main/4.1_conda_environments_and_jupyter_notebook_on_expanse)
 
 [Back to Top](#top)
 <hr>
 
 ## Software Requirements: <a name="software"></a>
 The document below contains a list of software being used at the institute and installation instructions:
-* [Software_Requirements]()
+* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/0_Preparation/software_requirements.md)
 
 [Back to Top](#top)
 <hr>
@@ -80,7 +80,7 @@ The document below contains a list of software being used at the institute and i
 ## GitHub, Slack, and Zoom: <a name="Github-Slack-Zoom"></a>
 
 ### Github: <a name="github"></a>
-* Training material will be located on the SDSC Summer Institute [GitHub repo]() and one of the Wednesday sessions will require a GitHub account.
+* Training material will be located on the SDSC Summer Institute [GitHub repo](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main) and one of the Wednesday sessions will require a GitHub account.
 * If you do not already have one, you can create a free personal GitHub account [here](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account).  
 * For basic GitHub usage on SDSC systems, see [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
 
@@ -94,7 +94,7 @@ The document below contains a list of software being used at the institute and i
 
 Connection details were sent as a calendar invite to all HPC & DS participants. You would have received an invite for the preparation day on Tuesday, July 29, 2025, from 9am - 11am (Pacific Time) earliy in July. 
 
-Note: While Prep Day is a virtual event, the main HPC & Data Science Summer Institute sessions (Monday, August 5 - Friday, August 9) will be held in person and will not available remotely.
+Note: While Prep Day is a virtual event, the main HPC & Data Science Summer Institute sessions (Monday, August 4 - Friday, August 8) will be held in person and will not available remotely.
 
 [Back to Top](#top)
 
