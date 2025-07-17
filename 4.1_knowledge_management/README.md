@@ -1,5 +1,5 @@
 ### SDSC Summer Institute 2025
-# Session 3.4 Parallel Computing using MPI & Open MP 
+# Session 4.1 Knowledge Management
 
 **Date:** Wednesday, August 6, 2025
 
