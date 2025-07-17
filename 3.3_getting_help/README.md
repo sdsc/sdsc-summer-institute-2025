@@ -1,5 +1,5 @@
 ### SDSC Summer Institute 2025
-# Session 3.1 Getting Help
+# Session 3.3 Getting Help
 
 **Date:** Tuesday, August 5, 2025
 
