@@ -2,7 +2,7 @@
 
 You will get the most out of the SDSC Summer Institute if you prepare prior to the event. By brushing up on your knowledge of Linux and installing all necessary software on your laptop before we start, you’ll be able to focus your attention on the skills and topics that are most relevant to high performance and data intensive computing.
 
-This section contains a set of detailed start-up instructions for setting up your account, connecting to Expanse and configuring your laptop to run the visualization software. Please read the documents and exercises carefully, and complete all necessary steps before event. Feel free to ask questions or if you have any problems with the start-up tasks.
+This section contains a set of detailed start-up instructions for setting up your account, connecting to Expanse and configuring your laptop to run the visualization software. Please read the documents and exercises carefully, and complete all necessary steps before the event. Feel free to ask questions or if you have any problems with the start-up tasks.
 
 <a name="top">Contents
 * [Expanse User Guide](#expanse-guide)
@@ -44,7 +44,7 @@ This training account may be used:
 <hr>
 
  ## Computer Requirements: <a name="computer-req"></a>
-* Laptop Required: The HPC and Data Science Summer Institute is designed as hand-on program and does require that you bring a laptop with administrative privileges and wireless connectivity.
+* Laptop Required: The HPC and Data Science Summer Institute is designed as a hands-on program and does require that you bring a laptop with administrative privileges and wireless connectivity.
 * WiFi will be available throughout the SDSC building
 * Remember your charger. There will be extension cords throughout the room for charging devices.
 
@@ -92,9 +92,9 @@ The document below contains a list of software being used at the institute and i
 * We will be using Zoom for preparation day on Tuesday, July 29, 2025, from 9am-11am (Pacific Time).
 * You will need to install the latest [Zoom](https://zoom.us/download) client, which is available for Windows, MacOS and Linux. Once installed, you can test your microphone and camera interface with Zoom [here](https://zoom.us/test). You can find more information on Zoom system requirements, including bandwidth requirements [here](https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux).
 
-Connection details were sent as a calendar invite to all HPC & DS participants. You would have received an invite for the preparation day on Tuesday, July 29, 2025, from 9am - 11am (Pacific Time) earliy in July. 
+Connection details were sent as a calendar invite to all HPC & DS participants. You would have received an invite for the preparation day on Tuesday, July 29, 2025, from 9am - 11am (Pacific Time) early in July. 
 
-Note: While Prep Day is a virtual event, the main HPC & Data Science Summer Institute sessions (Monday, August 4 - Friday, August 8) will be held in person and will not available remotely.
+Note: While Prep Day is a virtual event, the main HPC & Data Science Summer Institute sessions (Monday, August 4 - Friday, August 8) will be held in person and will not be available remotely.
 
 [Back to Top](#top)
 
