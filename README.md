@@ -15,6 +15,7 @@ For your convenience, we’ve create aliases and symlinks for the Summer Institu
 * jupyter-compute-tensorflow – start a JupyterLab session for TensorFlow session on a compute node
 * jupyter-gpu-shared-tensorflow – start a JupyterLab session for TensorFlow on one GPU
 * data – symlink to staged data
+
 In the event that you need to explicitly use a reservation, we will provide one for you.
 
 ## Agenda
