@@ -16,7 +16,7 @@ In this virtual session, we'll familiarize you with logging into Expanse with yo
 
 ### Getting your training account and password
 
-You should have received an email with the subject line: **HPC & DS 2024 Summer Institute: Account Set-Up**. The content of the email should be as follows:
+You should have received an email with the subject line: **HPC & DS 2025 Summer Institute: Account Set-Up**. The content of the email should be as follows:
 
 ```
 Your personalized account information is given below.
@@ -113,7 +113,7 @@ If you are unable to run any of the command aliases we are testing, please let u
 
 ### Setting up SSH keys
 
-And finally, the last thing we'll do today is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week be less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
+And finally, the last thing we'll do today is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/1.0_preparation_day_welcome_and_orientation/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week be less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
 
 #### Step 1 - Generate an SSH key pair (with a passphrase) on your personal computer
 

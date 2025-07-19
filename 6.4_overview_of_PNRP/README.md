@@ -1,4 +1,4 @@
-### SDSC Summer Institute 2024
+### SDSC Summer Institute 2025
 # Session 6.2 Overview of Prototype National Research Platform (PNRP)
 
 **Date:** Friday, August 8, 2025

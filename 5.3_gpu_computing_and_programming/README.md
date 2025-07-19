@@ -238,7 +238,7 @@ How does the performance compare to the hand written (but optimized) matrix mult
 
 ### CUDA samples from slides
 
-Now take a look at the directory `cuda-samples` in the SI2024 Github repository, which contains the examples that were discussed during the presentation.
+Now take a look at the directory `cuda-samples` in the SI2025 Github repository, which contains the examples that were discussed during the presentation.
 
 
 ## Hands-on exercises on SDSC Expanse – OpenACC

@@ -1,4 +1,4 @@
-### SDSC Summer Institute 2024
+### SDSC Summer Institute 2025
 # Session 4.2 Deep Learning - Part 1
 
 **Date:** Wednesday, August 6, 2025
