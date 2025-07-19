@@ -1,4 +1,5 @@
 # sdsc-summer-institute-2025
+<a name="top"></a>
 This repository hosts all material and slides of the presentations at the Summer Institute
 SDSC Summer Institute 2025 website: [https://na.eventscloud.com/website/83760/](https://na.eventscloud.com/website/83760/)
 
@@ -10,16 +11,23 @@ For your convenience, we’ve create aliases and symlinks for the Summer Institu
 * srun-shared - start an interactive session on a shared compute node
 * srun-compute – start an interactive session on a compute node
 * srun-gpu-shared – start an interactive session on one GPU
-* jupyter-shared-spark – start a JupyteLab session for Spark on a shared compute node
+* jupyter-shared-spark – start a JupyterLab session for Spark on a shared compute node
 * jupyter-compute-tensorflow – start a JupyterLab session for TensorFlow session on a compute node
 * jupyter-gpu-shared-tensorflow – start a JupyterLab session for TensorFlow on one GPU
 * data – symlink to staged data
 In the event that you need to explicitly use the reservation, training accounts will have access to SI2021RES for duration of SI
 
-## Agenda<a name="agenda"></a>
+## Agenda
+* [Tuesday, July 29 - Preparation day (virtual)](#tuesday-july-29---preparation-day-virtual)
+* [Monday, August 4](#monday-august-4)
+* [Tuesday, August 5](#tuesday-august-5)
+* [Wednesday, August 6](#wednesday-august-6)
+* [Thursday, August 7](#thursday-august-7)
+* [Friday, August 8, 2025](#friday-august-8-2025)
+
 All times are in Pacific time.
 
-### Tuesday, July 29 - Preparation day (virtual)<a name="agenda-1"></a>
+### Tuesday, July 29 - Preparation day (virtual)
 | **TIME (Pacific time)**       |   **TOPIC** | **PRESENTER** |
 | -------------------- |  ----------- | ----------- |
 | 9:00 AM – 9:30 AM	   | [Welcome & Orientation](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/1.0_preparation_day_welcome_and_orientation)| [Andrea Zonca](https://www.sdsc.edu/research/experts/zonca_andrea.html)   |
@@ -29,7 +37,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
- ### Monday, August 4 <a name="agenda-2"></a>
+ ### Monday, August 4
 | **TIME (Pacific time)**       | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Registration |    |
@@ -44,7 +52,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Tuesday, August 5 <a name="agenda-3"></a>
+### Tuesday, August 5
 | **TIME (Pacific time)**       | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
@@ -58,7 +66,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Wednesday, August 6 <a name="agenda-4"></a>
+### Wednesday, August 6
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
@@ -70,11 +78,11 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Thursday, August 7 <a name="agenda-5"></a>
+### Thursday, August 7
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
-| 8:30 AM - 9:30 AM    |  [5.1 Best Practices for Scientific Computing ](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.1_best_practices_for_scientific_commputing) | [Fernando Garzon](https://www.linkedin.com/in/fgarzonm) |
+| 8:30 AM - 9:30 AM    |  [5.1 Best Practices for Scientific Computing](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.1_best_practices_for_scientific_commputing) | [Fernando Garzon](https://www.linkedin.com/in/fgarzonm) |
 | 9:30 AM - 12:00 PM   |  [5.2 Performance Tuning](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/5.2_performance_tuning) | [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html) |
 | 12:00 PM - 1:30 PM	 |  Lunch  |  |
 | 1:30 PM - 1:45 PM    |  [Empowering Women in Technology with NetApp & Neuvys]() | Cecile Kellam, AI & Analytics Senior Solution Architect- US Public Sector, NetApp <br> Rebecca Pinheiro, CEO & Founder, Neuvys Technologies
@@ -83,7 +91,7 @@ All times are in Pacific time.
 
 [Back to Top](#top)
 
-### Friday, August 9, 2024 <a name="agenda-6"></a>
+### Friday, August 8, 2025
 | **TIME (Pacific time)** | **TOPIC** | **PRESENTER** |
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
