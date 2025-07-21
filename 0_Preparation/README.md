@@ -81,7 +81,7 @@ There are several methods for launching a secure Jupyter Notebook on Expanse:
 
 ## Software Requirements
 The document below contains a list of software being used at the institute and installation instructions:
-* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/0_Preparation/software_requirements.md)
+* [Software Requirements](./software_requirements.md)
 
 [Back to Top](#top)
 <hr>
