@@ -5,6 +5,25 @@ You will get the most out of the SDSC Summer Institute if you prepare prior to t
 
 This section contains a set of detailed start-up instructions for setting up your account, connecting to Expanse and configuring your laptop to run the visualization software. Please read the documents and exercises carefully, and complete all necessary steps before the event. Feel free to ask questions or if you have any problems with the start-up tasks.
 
+## Preparation Checklist
+
+Here is a summary of tasks to be completed before the institute begins:
+
+- [ ] **Set up your accounts:**
+    - [ ] [Create a GitHub account](#github).
+    - [ ] Look for an email about your Expanse training account.
+- [ ] **Install required software:**
+    - [ ] [Install required software](./software_requirements.md) on your laptop.
+    - [ ] [Install Slack](#slack) and join the workspace.
+    - [ ] [Install Zoom](#zoom).
+- [ ] **Review basic HPC skills:**
+    - [ ] [Connecting Securely to SDSC HPC Systems](#basic-hpc-skills)
+    - [ ] [Basic Linux Skills for Expanse](#basic-hpc-skills)
+    - [ ] [Interactive Computing on Expanse](#basic-hpc-skills)
+    - [ ] [Using GitHub on Expanse](#basic-hpc-skills)
+- [ ] **Attend Preparation Day:**
+    - [ ] Join the virtual Prep Day on Tuesday, July 29, 2025, from 9am-11am (Pacific Time).
+
 Contents
 * [Expanse User Guide](#expanse-user-guide)
 * [HPC Systems Accounts](#hpc-systems-accounts)
