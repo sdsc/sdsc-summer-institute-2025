@@ -19,11 +19,19 @@ Contents
     * [Zoom](#zoom)
   
 ## Expanse User Guide
-Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
-* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
-* Expanse Landing Page: https://expanse.sdsc.edu
+We will cover the basics of using Expanse during the institute. However, the [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html) is a comprehensive resource that you should keep handy for reference. After the institute, you may need to review details about specific configurations. Here are some key points from the guide that you may find useful:
 
-Note: if you have any difficulties getting set up, please contact Institute staff at consult@sdsc.edu.
+*   **System Architecture**: Expanse has different types of nodes for various computational needs, including standard compute nodes, GPU nodes with NVIDIA V100s, and large-memory nodes.
+*   **File Systems**: You will have access to different file systems:
+    *   `$HOME` (`/home`): A 100GB space for your source code and configuration files. It is backed up. Do not run jobs from here.
+    *   `/expanse/lustre/scratch`: A large, high-performance space for temporary job data. **Files are purged after 90 days and are not backed up.**
+    *   `/expanse/lustre/projects`: Project-specific storage space.
+    *   `/scratch/$USER/job_$SLURM_JOB_ID`: Fast, temporary local storage on the compute node(s) your job is running on. This is only available during the job's execution.
+*   **Connecting**: You will connect to Expanse using SSH and will need to set up two-factor authentication (2FA).
+*   **Software Environment**: The software environment is managed using "modules". You will need to load modules for compilers (e.g., `gcc`, `intel`), libraries (e.g., `openmpi`), and applications. Use `module spider <package_name>` to find available software.
+*   **Running Jobs**: Jobs are submitted to the Slurm scheduler using `sbatch` with a submission script. You can get an interactive session with `srun`. You must specify which project account to use for your job. Example scripts are available in `/cm/shared/examples/sdsc/` on Expanse.
+
+Please keep the link to the full guide ready. It will be a valuable resource for you.
 
 [Back to Top](#top)
 <hr>
