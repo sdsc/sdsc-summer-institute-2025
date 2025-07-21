@@ -93,7 +93,7 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 There are several methods for launching a secure Jupyter Notebook on Expanse:
 * Using the ```galyleo``` shell utility: https://github.com/mkandes/galyleo
 * Using the Expanse Portal:   https://portal.expanse.sdsc.edu
-* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/ciml-org/ciml-summer-institute-2025/tree/main/4.1_conda_environments_and_jupyter_notebook_on_expanse)
+* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/sdsc-hpc-training-org/notebooks-sharing)
 
 [Back to Top](#top)
 <hr>
