@@ -64,11 +64,11 @@ This training account may be used:
 The Summer Institute is a combination of in-depth lectures and hands-on learning. The following documents will guide you through the necessary steps needed to be prepared to get to work when you arrive at the Institute.
 
 ### Basic HPC Skills
-* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security)
-    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php)
-* [Basic_Linux_Skills](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse)
-* [Interactive Computing](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing)
-* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
+* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security): A guide to securely connecting to SDSC's High-Performance Computing (HPC) systems, covering SSH, passwordless login with SSH keys, and two-factor authentication.
+    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php): An interactive video tutorial on security best practices for using SDSC's HPC resources.
+* [Basic Linux Skills for Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse): A tutorial covering fundamental Linux commands for navigating the file system, managing files and directories, and understanding file permissions on the Expanse supercomputer.
+* [Interactive Computing on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing): Learn how to request and use interactive sessions on Expanse for both CPU and GPU nodes, allowing for real-time code development and data exploration.
+* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github): Instructions on how to set up and use Git and GitHub on SDSC systems for version control and collaboration.
 
 ### Launching Jupyter Notebooks
 There are several methods for launching a secure Jupyter Notebook on Expanse:
