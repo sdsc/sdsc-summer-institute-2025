@@ -5,6 +5,25 @@ You will get the most out of the SDSC Summer Institute if you prepare prior to t
 
 This section contains a set of detailed start-up instructions for setting up your account, connecting to Expanse and configuring your laptop to run the visualization software. Please read the documents and exercises carefully, and complete all necessary steps before the event. Feel free to ask questions or if you have any problems with the start-up tasks.
 
+## Preparation Checklist
+
+Here is a summary of tasks to be completed before the institute begins:
+
+- [ ] **Set up your accounts:**
+    - [ ] [Create a GitHub account](#github).
+    - [ ] Look for an email about your Expanse training account.
+- [ ] **Install required software:**
+    - [ ] [Install required software](./software_requirements.md) on your laptop.
+    - [ ] [Install Slack](#slack) and join the workspace.
+    - [ ] [Install Zoom](#zoom).
+- [ ] **Review basic HPC skills:**
+    - [ ] [Connecting Securely to SDSC HPC Systems](#basic-hpc-skills)
+    - [ ] [Basic Linux Skills for Expanse](#basic-hpc-skills)
+    - [ ] [Interactive Computing on Expanse](#basic-hpc-skills)
+    - [ ] [Using GitHub on Expanse](#basic-hpc-skills)
+- [ ] **Attend Preparation Day:**
+    - [ ] Join the virtual Prep Day on Tuesday, July 29, 2025, from 9am-11am (Pacific Time).
+
 Contents
 * [Expanse User Guide](#expanse-user-guide)
 * [HPC Systems Accounts](#hpc-systems-accounts)
@@ -19,11 +38,19 @@ Contents
     * [Zoom](#zoom)
   
 ## Expanse User Guide
-Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
-* [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html)
-* Expanse Landing Page: https://expanse.sdsc.edu
+We will cover the basics of using Expanse during the institute. However, the [Expanse User Guide](https://www.sdsc.edu/support/user_guides/expanse.html) is a comprehensive resource that you should keep handy for reference. After the institute, you may need to review details about specific configurations. Here are some key points from the guide that you may find useful:
 
-Note: if you have any difficulties getting set up, please contact Institute staff at consult@sdsc.edu.
+*   **System Architecture**: Expanse has different types of nodes for various computational needs, including standard compute nodes, GPU nodes with NVIDIA V100s, and large-memory nodes.
+*   **File Systems**: You will have access to different file systems:
+    *   `$HOME` (`/home`): 100GB for source code and configuration files (backed up). **Do not run jobs from here.**
+    *   `/expanse/lustre/scratch`: Large, high-performance space for temporary job data. **Not backed up, and files are purged after 90 days.**
+    *   `/expanse/lustre/projects`: Project-specific storage space.
+    *   `/scratch/$USER/job_$SLURM_JOB_ID`: Fast, temporary local storage on compute nodes, available only during job execution.
+*   **Connecting**: Connect to Expanse via SSH with two-factor authentication (2FA).
+*   **Software Environment**: Manage software with `module`. Use `module spider <package_name>` to find available packages.
+*   **Running Jobs**: Submit jobs to the Slurm scheduler with `sbatch`. Use `srun` for interactive sessions. Example scripts are in `/cm/shared/examples/sdsc/` on Expanse.
+
+Please keep the link to the full guide ready. It will be a valuable resource for you.
 
 [Back to Top](#top)
 <hr>
@@ -56,24 +83,24 @@ This training account may be used:
 The Summer Institute is a combination of in-depth lectures and hands-on learning. The following documents will guide you through the necessary steps needed to be prepared to get to work when you arrive at the Institute.
 
 ### Basic HPC Skills
-* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security)
-    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php)
-* [Basic_Linux_Skills](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse)
-* [Interactive Computing](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing)
-* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
+* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security): A guide to securely connecting to SDSC's High-Performance Computing (HPC) systems, covering SSH, passwordless login with SSH keys, and two-factor authentication.
+    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php): An interactive video tutorial on security best practices for using SDSC's HPC resources.
+* [Basic Linux Skills for Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse): A tutorial covering fundamental Linux commands for navigating the file system, managing files and directories, and understanding file permissions on the Expanse supercomputer.
+* [Interactive Computing on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing): Learn how to request and use interactive sessions on Expanse for both CPU and GPU nodes, allowing for real-time code development and data exploration.
+* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github): Instructions on how to set up and use Git and GitHub on SDSC systems for version control and collaboration.
 
 ### Launching Jupyter Notebooks
 There are several methods for launching a secure Jupyter Notebook on Expanse:
 * Using the ```galyleo``` shell utility: https://github.com/mkandes/galyleo
 * Using the Expanse Portal:   https://portal.expanse.sdsc.edu
-* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/ciml-org/ciml-summer-institute-2025/tree/main/4.1_conda_environments_and_jupyter_notebook_on_expanse)
+* Setting up CONDA Environments and Jupyter Notebook on Expanse:  [https://github.com/sdsc-hpc-training-org/notebooks-sharing](https://github.com/sdsc-hpc-training-org/notebooks-sharing)
 
 [Back to Top](#top)
 <hr>
 
 ## Software Requirements
 The document below contains a list of software being used at the institute and installation instructions:
-* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/0_Preparation/software_requirements.md)
+* [Software Requirements](./software_requirements.md)
 
 [Back to Top](#top)
 <hr>
