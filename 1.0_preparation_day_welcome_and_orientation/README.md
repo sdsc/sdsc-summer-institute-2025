@@ -6,7 +6,7 @@
 
 
 ## Welcome & Orientation
-[Robert Sinkovits, Director of Education and Training](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html)
+[Andrea Zonca, Lead of Scientific Computing Applications and Chair of the Summer Institute]([https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html](https://www.sdsc.edu/research/experts/zonca_andrea.html))
 
 
 ## Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal
