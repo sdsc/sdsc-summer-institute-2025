@@ -22,7 +22,7 @@ Here is a summary of tasks to be completed before the institute begins:
     - [ ] [Interactive Computing on Expanse](#basic-hpc-skills)
     - [ ] [Using GitHub on Expanse](#basic-hpc-skills)
 - [ ] **Attend Preparation Day:**
-    - [ ] Join the virtual Prep Day on Tuesday, July 29, 2025, from 9am-11am (Pacific Time).
+    - [ ] [Join the virtual Prep Day on Tuesday, July 29, 2025, from 9am-11am (Pacific Time).](https://github.com/sdsc/sdsc-summer-institute-2025/tree/main/1.0_preparation_day_welcome_and_orientation)
 
 Contents
 * [Expanse User Guide](#expanse-user-guide)
