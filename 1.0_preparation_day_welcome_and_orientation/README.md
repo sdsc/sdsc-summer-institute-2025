@@ -10,7 +10,7 @@
 
 
 ## Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal
-Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group
+Marty Kandes, Senior Computational & Data Science Research Specialist, HPC User Services Group
 
 In this virtual session, we'll familiarize you with logging into Expanse with your training account both via the Expane User Portal and directly via SSH. We'll also have you run and test some of the command aliases we've setup in your environment on Expanse to make your hands-on sessions next week at the Summer Institute go more smoothly. 
 
