@@ -147,7 +147,7 @@ IdentityFile ~/.ssh/sdsc-si25
 If successful, you should now be able to login almost hands-free with the following command. 
 
 ```
-ssh expanse
+ssh exp
 ```
 
 Additional Notes:
