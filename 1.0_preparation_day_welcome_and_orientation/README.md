@@ -126,13 +126,13 @@ Don't forget to use a passphrase!
 #### Step 2 - Copy your public SSH key to Expanse
 
 ```
-ssh-copy-id -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
+ssh-copy-id -i ~/.ssh/sdsc-si25 trainXXX@login.expanse.sdsc.edu
 ```
 
 #### Step 3 - Login to Expanse using your SSH keys
 
 ```
-ssh -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
+ssh -i ~/.ssh/sdsc-si25 trainXXX@login.expanse.sdsc.edu
 ```
 
 #### Step 4 - Simplify your login by creating a local SSH configuration file (~/.ssh/config) on your personal computer
