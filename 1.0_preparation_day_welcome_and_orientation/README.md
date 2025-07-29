@@ -138,7 +138,7 @@ ssh -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
 ### Step 4 - Simplify your login by creating a local SSH configuration file (~/.ssh/config) on your personal computer
 
 ```
-Host expanse
+Host exp
 Hostname login.expanse.sdsc.edu
 User trainXXX
 IdentityFile ~/.ssh/sdsc-si25
