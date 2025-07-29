@@ -118,7 +118,7 @@ And finally, the last thing we'll do today is show you [how to setup SSH keys](h
 #### Step 1 - Generate an SSH key pair (with a passphrase) on your personal computer
 
 ```
-ssh-keygen -t rsa -b 4096 -a 128 -f ~/.ssh/sdsc-si23
+ssh-keygen -t rsa -b 4096 -a 128 -f ~/.ssh/sdsc-si25
 ```
 
 Don't forget to use a passphrase!
@@ -141,7 +141,7 @@ ssh -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
 Host expanse
 Hostname login.expanse.sdsc.edu
 User trainXXX
-IdentityFile ~/.ssh/sdsc-si23
+IdentityFile ~/.ssh/sdsc-si25
 ```
 
 If successful, you should now be able to login almost hands-free with the following command. 
