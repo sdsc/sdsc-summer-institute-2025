@@ -1,0 +1,27 @@
+name: si24
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - dask
+  - dask-labextension
+  - distributed
+  - numba
+  - python-graphviz
+  - pandas
+  - matplotlib
+  - h5py
+  - Pillow
+  - ipywidgets
+  - scikit-image
+  - scikit-learn
+  - jupyter-ai
+  - langchain-google-genai
+  - astropy
+  - black
+  - pytables
+  - xarray
+  - netcdf4
+  - jupyter-resource-usage
+  - jupyter-server-proxy
