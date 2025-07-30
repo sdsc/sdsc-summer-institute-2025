@@ -8,6 +8,7 @@
 **Presented by:** [Bob Sinkovits](https://www.sdsc.edu/research/experts/sinkovits_robert.html) (rssinkovits @ucsd.edu)
 
 ### Reading and Presentations:
+Jupyter notebooks used to create scaling plots and illustrate Amdahl's law are available at [COMPLECS Parallel-computing-concepts](https://github.com/sdsc-complecs/Parallel-computing-concepts) 
 
 ### TASKS: None at this time.
 
