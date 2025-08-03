@@ -15,7 +15,8 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-   * https://education.sdsc.edu/training/interactive/?id=202406-Data-Transfer
+   * [COMPLECS: Data Management 1: Data Storage and File Systems](https://drive.google.com/file/d/1ANRx9vDr-xxVJ4Lk2oYisrweJcvnz1Nd/view?usp=drive_link)
+   * [COMPLECS: Data Management 2: Data Transfer](https://drive.google.com/file/d/1db7T5hUfQAFi-iNbg_aesvIlUZtwZF5i/view?usp=drive_link)
   
 * **Source Code/Examples:** 
    * https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/DOWNLOADING.md
