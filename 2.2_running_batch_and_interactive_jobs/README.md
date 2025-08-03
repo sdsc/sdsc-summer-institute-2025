@@ -5,7 +5,7 @@
 
 **Summary**: 
 
-**Presented by:** [Mary Thomas](https://www.sdsc.edu/~mthomas/main.html) (mpth0omas @ucsd.edu)
+**Presented by:** [Mary Thomas](https://www.sdsc.edu/~mthomas/main.html) (mpthomas @ucsd.edu)
 
 ### Reading and Presentations:
 
