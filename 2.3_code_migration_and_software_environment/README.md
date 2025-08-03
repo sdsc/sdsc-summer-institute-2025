@@ -10,7 +10,6 @@
 ### Presentations:
 
 ### Hands-On
-<br>
 Commands for simple hands-on work (can be done asynchronous w/ talk) are in Code-Migration-Handson.md file.
 
 [Back to Top](#top)
