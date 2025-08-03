@@ -7,8 +7,10 @@
 
 **Presented by:** [Mahidhar Tatineni](https://www.sdsc.edu/research/experts/tatineni_mahidhar.html) (mtatineni @ucsd.edu)
 
-### Reading and Presentations:
+### Presentations:
 
-### TASKS: None at this time.
+### Hands-On
+<br>
+Commands for simple hands-on work (can be done asynchronous w/ talk) are in Code-Migration-Handson.md file.
 
 [Back to Top](#top)
