@@ -11,6 +11,6 @@
 [Code Migration and Software Environment](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/2.3_code_migration_and_software_environment/SI25_Code_Migration_Aug4_2025.pdf)
 
 ### Hands-On
-Commands for simple hands-on work (can be done asynchronous w/ talk) are in Code-Migration-Handson.md file.
+Commands for simple hands-on work (can be done asynchronous w/ talk) are in [Code-Migration-Handson.md](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/2.3_code_migration_and_software_environment/Code-Migration-Handson.md) file.
 
 [Back to Top](#top)
