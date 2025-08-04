@@ -12,9 +12,10 @@ This session consists of two topics:
 
 
 ### Reading and Presentations: Can be found on the COMPLECS [Google Drive](https://drive.google.com/drive/u/0/folders/1OCf8FHmffihZB-UZfdduNGrgLcClLPOX)
-* **Lecture material:**
-   * [COMPLECS:Batch Computing Using Slurm](https://drive.google.com/drive/u/0/folders/1OCf8FHmffihZB-UZfdduNGrgLcClLPOX)
-   * [COMPLECS:Interactive Computing](https://drive.google.com/drive/u/0/folders/1OCf8FHmffihZB-UZfdduNGrgLcClLPOX)
+* **Lecture material:** (appx times)
+   * [1:30pm PST; COMPLECS:Batch Computing Using Slurm](https://drive.google.com/drive/u/0/folders/1OCf8FHmffihZB-UZfdduNGrgLcClLPOX)
+   * 2:20: Break
+   * [2:30pm PST: COMPLECS:Interactive Computing](https://drive.google.com/drive/u/0/folders/1OCf8FHmffihZB-UZfdduNGrgLcClLPOX)
   
 * **Source Code/Examples:** 
    * https://github.com/sdsc-complecs/batch-computing
