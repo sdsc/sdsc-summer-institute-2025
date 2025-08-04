@@ -26,7 +26,7 @@ In this part of the hands on section, we will copy over a PyTorch example from t
 ```
 cp -r /cm/shared/examples/sdsc/pytorch .
 cd pytorch
-sbatch -A gue998 run-pytorch-cpu-shared.sh
+sbatch --res=si25cpu -A gue998 run-pytorch-cpu-shared.sh
 ```
 Once this job runs, check the output file!
 
@@ -36,7 +36,7 @@ In this example we first get interactive access to a compute node:
 
 ```
 module reset
-srun --pty --partition=shared --nodes=1 --ntasks-per-node=1 --cpus-per-task=8 --mem=16G -A gue998 -t 00:30:00 --wait 0 /bin/bash
+srun --pty --reservation=si25cpu --partition=shared --nodes=1 --ntasks-per-node=1 --cpus-per-task=8 --mem=16G -A gue998 -t 00:30:00 --wait 0 /bin/bash
 ```
 Next we set the temporary directory to the node local NVMe scratch directory and change to that directory.
 
