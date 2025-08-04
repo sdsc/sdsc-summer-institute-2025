@@ -23,8 +23,7 @@ This session consists of two topics:
 
 #### Additional References
   - [Expanse User Guide](https://www.sdsc.edu/systems/expanse/user_guide.html)
-  - [A](B)
-  - [A](B)
+ 
 
 
 [Back to Top of Page](#top)
