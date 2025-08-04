@@ -18,7 +18,8 @@
    * [COMPLECS: Data Management 1: Data Storage and File Systems](https://drive.google.com/file/d/1cs7Cvvcb_InfLvNWD0KdXI-q-cMZWp6N/view?usp=drive_link)
    * [COMPLECS: Data Management 2: Data Transfer](https://drive.google.com/file/d/1_ei6bviMbbpIYPJzQ8duovbF0EuE1o33/view?usp=drive_link)
   
-* **Source Code/Examples:** 
+* **Source Code/Examples:**
+   * https://github.com/sdsc-complecs/data-storage-filesystems
    * https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/DOWNLOADING.md
    * https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/FILESYSTEMS.md
 
