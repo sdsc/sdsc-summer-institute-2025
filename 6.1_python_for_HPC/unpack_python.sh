@@ -20,7 +20,7 @@ start_time=$(date +%s)
 log_step "Setting environment variables..."
 export conda_env='pythonhpc'
 export GALYLEO_CACHE_DIR="${HOME}/.galyleo"
-export LOCAL_SCRATCH_DIR="/tmp"  # local SSD on Expanse
+export LOCAL_SCRATCH_DIR=$SLURM_TMPDIR # local SSD on Expanse
 export USERNAME=$(whoami)
 export CONDA_INSTALL_PATH="${LOCAL_SCRATCH_DIR}/${USERNAME}_miniforge3"
 export CONDA_ENVS_PATH="${CONDA_INSTALL_PATH}/envs"
