@@ -1,16 +1,16 @@
-name: si24
+name: pythonhpc
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - jupyterlab
   - dask
   - dask-labextension
   - distributed
   - numba
-  - python-graphviz
   - pandas
   - matplotlib
+  - ipycytoscape
   - h5py
   - Pillow
   - ipywidgets
