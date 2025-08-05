@@ -11,7 +11,7 @@
 
 </br>
 
-![OSG logo](osg_logo.png)
+![OSG logo](https://osg-htc.org/assets/images/logos/OSG-logo.svg)
 
 - https://osg-htc.org
 - https://indico.fnal.gov/event/47040/contributions/208066/attachments/140536/176648/2021OSGAHM_StateOfImpactedResearch.pdf
