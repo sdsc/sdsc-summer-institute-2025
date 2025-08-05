@@ -137,8 +137,8 @@ Last login: Tue Aug  2 09:28:42 2022 from 10.21.0.19
 #!/usr/bin/env bash
 
 #SBATCH --job-name=estimate-pi
-#SBATCH --account=crl155
-#SBATCH --reservation=SI2022DAY2
+#SBATCH --account=gue998
+#SBATCH --reservation=si25cpu
 #SBATCH --partition=compute
 #SBATCH --qos=normal-eot
 #SBATCH --nodes=1
