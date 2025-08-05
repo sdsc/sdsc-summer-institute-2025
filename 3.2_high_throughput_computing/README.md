@@ -8,6 +8,12 @@
 **Presented by:** [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144) (mkandes @ucsd.edu)
 
 ### Reading and Presentations:
+* **Lecture material:**
+   * [COMPLECS: Data Management 1: Data Storage and File Systems](https://drive.google.com/file/d/1cs7Cvvcb_InfLvNWD0KdXI-q-cMZWp6N/view?usp=drive_link)
+  
+* **Source Code/Examples:**
+   * https://github.com/sdsc-complecs/data-storage-filesystems
+   * https://github.com/sdsc-complecs/data-transfer
 
 ### TASKS: None at this time.
 
