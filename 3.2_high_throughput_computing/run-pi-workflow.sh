@@ -14,4 +14,4 @@
 module reset
 
 job_id="$(sbatch estimate-pi.sh | grep -o '[[:digit:]]*')"
-sbatch "--dependency=afterok:${job_id}" compute-pi-stats.sh
+sbatch "--dependency=afterok:${job_id}" compute-pi-stats.sh "${job_id}"
