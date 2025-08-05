@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=estimate-pi
 #SBATCH --account=gue998
-#SBATCH --reservation=si24
+#SBATCH --reservation=si25cpu
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
