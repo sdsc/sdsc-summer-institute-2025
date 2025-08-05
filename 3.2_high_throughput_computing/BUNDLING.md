@@ -21,8 +21,8 @@ The simplest and most straightforward approach to bundling jobs is with the [Lin
 #!/usr/bin/env bash
 
 #SBATCH --job-name=estimate-pi
-#SBATCH --account=crl155
-#SBATCH --reservation=SI2022DAY2
+#SBATCH --account=gue998
+#SBATCH --reservation=si24cpu
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
