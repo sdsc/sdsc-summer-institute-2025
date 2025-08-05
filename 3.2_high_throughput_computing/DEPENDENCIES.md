@@ -210,7 +210,7 @@ Resetting modules to system default. Reseting $MODULEPATH back to system default
 Finally, download the following batch job script. It recreates the simple workflow we ran above manually in a single batch job. Workflow jobs like this can be used to write (and launch) more complex job dependencies than you might do so directly from the command-line.
 
 ```
-wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2024/main/3.5_high_throughput_computing/run-pi-workflow.sh
+wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2025/refs/heads/main/3.2_high_throughput_computing/run-pi-workflow.sh
 ```
 
 Once you've downloaded the script, go ahead and launch the workflow. 
