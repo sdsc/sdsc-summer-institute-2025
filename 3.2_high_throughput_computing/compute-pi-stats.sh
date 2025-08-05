@@ -11,7 +11,7 @@
 #SBATCH --time=00:30:00
 #SBATCH --output=%x.o%j.%N
 
-declare -xir ARRAY_JOB_ID="${1}"
+declare -xir DEPENDENT_SLURM_ARRAY_JOB_ID="${1}"
 
 module reset
 module load gcc/10.2.0
