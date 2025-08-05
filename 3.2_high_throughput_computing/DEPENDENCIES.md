@@ -51,7 +51,7 @@ python3 "${HOME}/4pi/python/pi.py" 100000000
 ... then download the following batch job script to your HOME directory. It will combine the results from each individual estimate of Pi from the batch job array into a summary of statistics.
 
 ```
-wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2024/main/3.5_high_throughput_computing/compute-pi-stats.sh
+wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2025/refs/heads/main/3.2_high_throughput_computing/compute-pi-stats.sh
 ```
 
 ```
@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2024/main/3.5_
 
 #SBATCH --job-name=compute-pi-stats
 #SBATCH --account=gue998
-#SBATCH --reservation=si24
+#SBATCH --reservation=si25cpu
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
