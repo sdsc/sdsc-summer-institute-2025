@@ -8,7 +8,7 @@
 **Presented by:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mtatineni @ucsd.edu)
 
 ### Reading and Presentations:
-* **Lecture material:** 
+* **Lecture material:** [Presentation](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/3.4_parallel_computing_mpi_openmp/SI25_OpenMP_MPI.pdf)
 * **Source Code/Examples:** See details in run_commands.txt file in this section repository
 
 ### TASKS: None at this time.
