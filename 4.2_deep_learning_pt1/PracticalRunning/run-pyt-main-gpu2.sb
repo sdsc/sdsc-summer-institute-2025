@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+#SBATCH --job-name=pyt-gpu
+#SBATCH --account=use300
+#SBATCH --partition=gpu
+#SBATCH --nodes=2     #try 1 or 2
+#SBATCH --ntasks-per-node=4  #match to num gpu devices
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=368G          
+#SBATCH --gpus=4     #4 gpus b/c 4 devices per node
+#SBATCH --time=00:15:00
+#SBATCH --output=slurm.gpu.%x.%N.o%j.out
+
+module reset
+module load slurm  
+module load gcc/10.2.0          #compiler, unix module  
+module load openmpi/4.1.3       #mpi module
+module load singularitypro  #container
+module list
+
+#suggested for expanse 
+export OMPI_MCA_btl='self,vader'
+export UCX_TLS='shm,rc,ud,dc'
+export UCX_NET_DEVICES='mlx5_0:1'
+export UCX_MAX_RNDV_RAILS=1
+
+#you can try this to see gpu device usage
+#nvidia-smi
+
+declare -xr MASTER_ADDR=$(mpirun --allow-run-as-root -n 1 hostname -i 2>/dev/null |tail -n 1);
+declare -xr MASTER_PORT=${MASTER_PORT:-15566};
+
+#use -n num-of-nodes * 4  (ie on Expanse use all 4 gpu devices)
+mpirun -n 8 -npernode 4 singularity exec --bind /expanse,/scratch --nv /cm/shared/apps/containers/singularity/pytorch/pytorch-latest.sif python3 ./mnist_multinode_v5.py > stdout_mnist_multinode_gpu.txt
+
+
