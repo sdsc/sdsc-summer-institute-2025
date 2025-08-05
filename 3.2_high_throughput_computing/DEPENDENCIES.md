@@ -119,7 +119,7 @@ Submitted batch job 14806584
 ... and then submit the stats job to run after all of the array tasks complete successfully. 
 
 ```
-[xdtr108@login02 ~]$ sbatch --dependency=afterok:14806584 compute-pi-stats.sh 14806584
+[xdtr108@login02 ~]$ sbatch --dependency=afterok:14806584 compute-pi-stats.sh
 Submitted batch job 14806656
 [xdtr108@login02 ~]$ squeue -u $USER
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
