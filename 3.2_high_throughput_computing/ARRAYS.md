@@ -50,7 +50,7 @@ pi.py
 Next, download the example batch job script.
 
 ```
-wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2024/main/3.5_high_throughput_computing/estimate-pi.sh
+wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2025/refs/heads/main/3.2_high_throughput_computing/estimate-pi.sh
 ```
 
 Inspect the job script.
