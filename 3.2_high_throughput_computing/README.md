@@ -20,10 +20,8 @@
 
 
 #### Additional References
-  - [Data Management & File Systems (2023)](https://www.sdsc.edu/event_items/202303-SDSCWebinar-Data-Management-File-Systems.html)
-  - [Data Management & Job Submission (2022)](https://education.sdsc.edu/training/interactive/hpc_user_training_2022/week3/)
-  - [Data Management & File Systems on Expanse (2021)](https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html)
-  - [Implementing Research Data Management for Labs & Grants (2021)](https://www.sdsc.edu/event_items/202104_ImplementingResearchData.html)
+ - [COMPLECS: Batch Computing 1: Working with the Linux Scheduler](https://drive.google.com/file/d/1WO2u6krJbDWudWUUfbmdX7emmmNkUQmb/view?usp=drive_link)
+ - [COMPLECS: Batch Computing 2: High-Throughput and Many-Task Computing: Slurm Edition](https://drive.google.com/file/d/1fAI7nrBXy1DQgUVs-IoW-Urpg5iuRnXg/view?usp=drive_link)
 
 
 #
