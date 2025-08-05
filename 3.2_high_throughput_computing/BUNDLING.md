@@ -22,7 +22,7 @@ The simplest and most straightforward approach to bundling jobs is with the [Lin
 
 #SBATCH --job-name=estimate-pi
 #SBATCH --account=gue998
-#SBATCH --reservation=si24cpu
+#SBATCH --reservation=si25cpu
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
