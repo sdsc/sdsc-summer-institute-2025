@@ -17,7 +17,7 @@ Converting notebooks into production-ready packages not only boosts reproducibil
 * **Source Code/Examples:**
   * [SkyDiving Model](https://github.com/ofgarzon2662/skyDiving): Toy Physics model that simulates objects in free fall and calculates the terminal speed of said object
   * [mnist_ae](https://github.com/ofgarzon2662/mnist_ae): ML Model that predicts hand-writen digits (0-9).
-    *[Unit test suite](https://github.com/ofgarzon2662/mnist_ae/tree/master/tests)
+    * [Unit test suite](https://github.com/ofgarzon2662/mnist_ae/tree/master/tests)
   * [mnist_ae pypi package](https://pypi.org/project/mnist-ae/)
 
 ### TASKS: None at this time.
