@@ -1,0 +1,21 @@
+name: ptl
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pytorch=2.5.1=cuda126_mkl_py312_*
+  - torchvision=0.20.1=cuda126_py312_*
+  - torchaudio=2.5.1=cuda_126py312*
+  - lightning=2.5.0
+  - jupyterlab
+  - pandas
+  - mlflow
+  - wandb
+  - scikit-learn
+  - tensorboard
+  - xgboost
+  - lightgbm
+  - pip:
+    - torchsummary
