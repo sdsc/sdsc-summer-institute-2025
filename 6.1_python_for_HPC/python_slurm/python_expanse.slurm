@@ -11,10 +11,11 @@
 #SBATCH --time=00:05:00
 #SBATCH --output=slurm-%j.out
 
-# Set local SSD scratch
 export LOCAL_SCRATCH_DIR=$SLURM_TMPDIR
 
 echo "🔧 Running on nodes:"
 scontrol show hostname $SLURM_NODELIST
 
-srun --exact --ntasks=3 --ntasks-per-node=1 bash -c 'source ./stage_condaenv.sh pythonhpc && python node_info.py'
+# Run staging and python in the same shell per node
+srun --exact --ntasks=3 --ntasks-per-node=1 --unbuffered \
+    bash -c 'source ./stage_condaenv.sh pythonhpc && exec python node_info.py'
