@@ -18,13 +18,24 @@ fi
 # Take conda env name as input
 export conda_env="$1"
 
+# Detect if running interactively
+INTERACTIVE=false
+if [[ $- == *i* ]]; then
+  INTERACTIVE=true
+fi
+
 # Helper to print steps with timestamp
 log_step() {
-  echo -e "\n🕒 [$(date '+%Y-%m-%d %H:%M:%S')] $1"
+  if $INTERACTIVE; then
+    echo -e "\n🕒 [$(date '+%Y-%m-%d %H:%M:%S')] $1"
+  fi
 }
 
 # Start timing
 start_time=$(date +%s)
+
+# Save original directory
+original_dir=$(pwd)
 
 # Define variables
 log_step "Setting environment variables..."
@@ -76,8 +87,13 @@ source "$conda_env/bin/activate"
 if command -v conda-unpack &> /dev/null; then
   conda-unpack > /dev/null
 else
-  echo "⚠️  Warning: 'conda-unpack' not found. Skipping."
+  if $INTERACTIVE; then
+    echo "⚠️  Warning: 'conda-unpack' not found. Skipping."
+  fi
 fi
+
+# Return to original directory
+cd "$original_dir"
 
 # End timing
 end_time=$(date +%s)
