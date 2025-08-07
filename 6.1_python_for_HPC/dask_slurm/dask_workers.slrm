@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name="dask-workers"
+#SBATCH --output="dask-workers.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --reservation=si24
+#SBATCH --account=gue998
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --export=ALL
+#SBATCH --mem=240G
+#SBATCH -t 0:10:00
+
+SIMG='/expanse/lustre/projects/sds166/zonca/dask-numba-si24.sif'
+module load singularitypro
+srun singularity exec $SIMG bash ./launch_worker.sh
