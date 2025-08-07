@@ -16,5 +16,6 @@ This guide provides a brief overview of setting up AI code assistants for Python
 
 The **Gemini CLI** is an open-source AI agent that allows users to access the Gemini AI model directly from their terminal, assisting with various software engineering tasks.
 *   [Official Gemini CLI Documentation](https://gemini-cli.xyz/)
+*   **Usage with Personal Google Account**: When logged in with a personal Google account, you can use the `gemini-2.5-flash` model with a limit of 60 requests per minute (RPM) and 1,000 requests per day (RPD).
 
 **Note**: You cannot use these AI assistants directly on Expanse. Instead, develop locally, push your changes to GitHub, and then pull them from Expanse.
