@@ -1,5 +1,5 @@
 ### SDSC Summer Institute 2025
-# Session 5.2 Performance Tuning
+# Session 5.3 GPU Computing and Programming
 
 **Date:** Thursday, August 7
 
@@ -7,7 +7,7 @@
 
 **Presented by:** [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) (awgoetz @ucsd.edu)
 
-**Presentation Slides**: [GPU Computing and Programming](<GPU Computing SI2024.pdf>)
+**Presentation Slides**: [GPU Computing and Programming](<GPU Computing SI2025.pdf>)
 
 **Source code**:
 * [Official Nvidia CUDA samples](https://github.com/NVIDIA/cuda-samples)
