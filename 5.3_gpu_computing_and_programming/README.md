@@ -41,7 +41,7 @@ You should see following output
 
 Currently Loaded Modules:
   1) shared            3) slurm/expanse/23.02.7   5) DefaultModules
-  2) gpu/0.17.3b (g)   4) sdsc/1.0
+  2) gpu/0.17.3b (g)   4) sdsc/1.0                6) cuda12.2/toolkit/12.2.2
 
   Where:
    g:  built natively for Intel Skylake
@@ -240,6 +240,20 @@ How does the performance compare to the hand written (but optimized) matrix mult
 
 Now take a look at the directory `cuda-samples` in the SI2025 Github repository, which contains the examples that were discussed during the presentation.
 
+We recommend to clone the SDSC Summer Institute 2025 repository in the local scratch directory:
+```
+cd $SLURM_TMPDIR
+git clone https://github.com/sdsc/sdsc-summer-institute-2025.git
+```
+
+Navigate to the CUDA samples directory:
+```
+cd sdsc-summer-institute-2025/5.3_gpu_computing_and_programming
+cd cuda-samples
+```
+
+Take a look at the samples and/or compile and run.
+
 
 ## Hands-on exercises on SDSC Expanse – OpenACC
 
@@ -265,7 +279,14 @@ Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
 
 ### `saxpy` OpenACC sample
 
-This example contains the C program `saxpy.c` that performs a single precision vector addition (y = a*x + y). It can be compiled with standard C compiler or PGI pgcc compiler with accelerator directives.
+Now you can navigate to the OpenACC samples. If you have cloned the SDSC Summer Institute 2025 Github repository to the local scratch directory:
+```
+cd $SLURM_TMPDIR
+cd sdsc-summer-institute-2025/5.3_gpu_computing_and_programming
+cd cuda-samples
+```
+
+The directory `saxpy` contains the C program `saxpy.c` that performs a single precision vector addition (y = a*x + y). It can be compiled with standard C compiler or PGI pgcc compiler with accelerator directives.
 ```
 pgcc saxpy.c -o saxpy-cpu.x
 pgcc saxpy.c -acc -Minfo=accel -o saxpy-gpu.x
