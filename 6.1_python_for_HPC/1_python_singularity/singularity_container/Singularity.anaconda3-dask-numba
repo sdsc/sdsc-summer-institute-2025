@@ -1,0 +1,81 @@
+Bootstrap: oras
+From: ghcr.io/mkandes/naked-singularity:ubuntu-22.04
+# From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
+
+
+%labels
+
+    APPLICATION_NAME anaconda3dasknumba
+
+    AUTHOR_NAME Andrea Zonca
+    AUTHOR_EMAIL zonca@sdsc.edu
+
+    LAST_UPDATED 20220708
+
+%setup
+
+%environment
+
+    export MAMBA_ROOT_PREFIX="/opt/micromamba/"
+    export ENV_NAME=si24
+
+    export PATH="${MAMBA_ROOT_PREFIX}/envs/${ENV_NAME}/bin:${PATH}"
+
+%post -c /bin/bash
+
+    # Set system locale
+    export LC_ALL='C'
+
+    # Set debian frontend interface
+    export DEBIAN_FRONTEND='noninteractive'
+
+    apt-get -y install graphviz
+
+    # Cleanup
+    apt-get -y autoremove --purge
+    apt-get -y clean
+
+    export MAMBA_ROOT_PREFIX="/opt/micromamba/"
+    export MAMBA="${MAMBA_ROOT_PREFIX}/bin/micromamba"
+    export ENV_NAME=si24
+
+    mkdir -p ${MAMBA_ROOT_PREFIX}
+    cd ${MAMBA_ROOT_PREFIX}
+    curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+
+    source ${HOME}/.bashrc
+
+    $MAMBA create -n $ENV_NAME -c conda-forge --yes \
+    'python==3.11' \
+    'jupyterlab' \
+    'dask' \
+    'dask-labextension' \
+    'distributed' \
+    'numba' \
+    'python-graphviz' \
+    'pandas' \
+    'matplotlib' \
+    'h5py' \
+    'Pillow' \
+    'ipywidgets' \
+    'scikit-image' \
+    'scikit-learn' \
+    'jupyter-ai' \
+    'langchain-google-genai' \
+    'astropy' \
+    'black' \
+    'pytables' \
+    'xarray' \
+    'netcdf4' \
+    'jupyter-resource-usage' \
+    'jupyter-server-proxy' && \
+    "${MAMBA}" clean --all -f -y
+
+    # Update database for mlocate
+    updatedb
+
+%files
+
+%runscript
+
+%test
