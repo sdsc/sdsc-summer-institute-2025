@@ -74,3 +74,4 @@ This will launch a Jupyter Notebook environment based on the `jupyter/datascienc
 * `$SLURM_TMPDIR` is local SSD on compute nodes and ideal for temporary build/cache use.
 * `/expanse/lustre/scratch/$USER/temp_project` is recommended for storing large container files.
 * Refer to the official docs at [hpc-training.sdsc.edu/galyleo](https://hpc-training.sdsc.edu/galyleo/) for full CLI options and examples.
+* 🚫 The `jupyter/datascience-notebook` container does not support GPU acceleration out of the box, for that you need to customize a [`naked-singularity` container](https://github.com/mkandes/naked-singularity)
