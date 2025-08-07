@@ -1,5 +1,5 @@
 ### SDSC Summer Institute 2025
-# Session 5.2 Performance Tuning
+# Session 5.3 GPU Computing and Programming
 
 **Date:** Thursday, August 7
 
