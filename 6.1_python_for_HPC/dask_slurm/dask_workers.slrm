@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name="dask-workers"
 #SBATCH --output="dask-workers.%j.%N.out"
-#SBATCH --partition=debug
-###SBATCH --reservation=si25cpu
+#SBATCH --partition=compute
+#SBATCH --reservation=si25cpu
 #SBATCH --account=gue998
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=1
