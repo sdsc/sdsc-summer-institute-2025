@@ -1,4 +1,4 @@
-# Dask workers on Comet
+# Dask workers on Expanse
 
 ## Launch scheduler
 
