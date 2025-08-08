@@ -8,9 +8,9 @@ NOTEBOOK_FOLDER=$(pwd -P)
 
 galyleo launch \
   --account ${SI25_ACCOUNT} \
-  --partition shared \
-  --cpus 4 \
-  --memory 16 \
+  --partition compute \
+  --cpus 128 \
+  --memory 242 \
   --time-limit 04:00:00 \
   --conda-yml environment.yaml \
   --notebook-dir ${NOTEBOOK_FOLDER} \
