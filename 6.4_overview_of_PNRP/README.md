@@ -9,7 +9,7 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
+   * Presentation Slides: [Overview of PNRP](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/6.4_overview_of_PNRP/SI25_PNRP.pdf)
 * **Source Code/Examples:** N/A
 
 [Back to Top](#top)
