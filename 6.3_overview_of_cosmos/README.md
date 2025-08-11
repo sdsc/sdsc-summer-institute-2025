@@ -9,7 +9,7 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
+   * Presentation Slides: [Overview of Cosmos](https://github.com/sdsc/sdsc-summer-institute-2025/blob/main/6.3_overview_of_cosmos/SI25_Cosmos.pdf)
 * **Source Code/Examples:** N/A
 
 [Back to Top](#top)
